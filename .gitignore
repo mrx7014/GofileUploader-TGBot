@@ -1,0 +1,12 @@
+# secrets & runtime data - never commit these
+.env
+data.json
+data.json.tmp
+*.session
+*.session-journal
+downloads/
+
+# python
+__pycache__/
+*.pyc
+.venv/
